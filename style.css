@@ -31,7 +31,7 @@ body::-webkit-scrollbar{
 }
 .landing-image{
     height: 40vh;
-    margin-bottom: 60px;
+    margin: 32px 0 60px 0;
 }
 .landing-image img{
     /* overflow-clip-margin: content-box;
