@@ -14,10 +14,8 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/it/8/8a/Logo_di_Zerodha.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="#">Signup</a>
@@ -35,7 +33,14 @@
                 <a class="nav-link ">Support</a>
               </li>
             </ul>
+         
+          <button class="toggle-permanent" type="button">
+            <i class="fa-solid fa-bars"></i>
+          </button>
           </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </nav>
      
@@ -44,11 +49,15 @@
             
             <section class="text-center">
                 <div class="container">
-                    <img class="landing-image" src="https://zerodha.com/static/images/landing.png" class="img-fluid" alt="...">
-                    <h1 style="font-size: 3rem;">Invest in everything</h1>
-                    <h1 class="display-5">Online platform to invest in stocks, derivatives, mutual funds and more</h1>
-                    <div class="d-grid gap-2 col-2 mx-auto">
-                    <button class="btn btn-primary" type="button">Sign Up Now</button>
+                    <div class="landing-image">
+                        <img  src="https://zerodha.com/static/images/landing.png" class="img-fluid" alt="...">
+                   
+                    
+                        <h1 style="font-size: 3rem;">Invest in everything</h1>
+                        <h1 class="display-5">Online platform to invest in stocks, derivatives, mutual funds and more</h1>
+                        <div class="d-grid gap-2 col-2 mx-auto">
+                        <button class="btn btn-primary" type="button">Sign Up Now</button>
+                        </div>
                     </div>
                 </div>
                 
@@ -96,7 +105,7 @@
                     <h2>The Zerodha Universe</h2>
                     <h1 class="display-5" style="padding: 10px;line-height: 1.8em;">A whole ecosystem of modern investment apps
                         <br>tailored to specific needs, built from the ground up</h5>
-                        <img width="1100px" max-width="100%" src="https://zerodha.com/static/images/ecosystem.png" alt="ecosystem">
+                        <img  max-width="100%" src="https://zerodha.com/static/images/ecosystem.png" alt="ecosystem">
                         <p>
                             <a href="#">
                                 Explore our products
@@ -111,7 +120,7 @@
                 </section>
             </section>
 
-                <section class="pricing">
+                <section class="pricing ">
                     <div class="container">
                         <div class="row justify-content-around">
                             <div class="col-5">
@@ -121,15 +130,15 @@
                             </div>
                             <div class="col-6">
                                 <div class=" row">
-                                    <div class="col-6 col-price text-center">
+                                    <div class="col-4 col-price text-center">
                                         <div class="pricing-box">
-                                            <h1>$0</h1>
+                                            <h1>₹0</h1>
                                             <p>Free equity delivery and direct mutual funds</p>
                                         </div>
                                     </div>
-                                    <div class="col-6 col-price text-center">
+                                    <div class="col-4 col-price text-center">
                                         <div class="pricing-box">
-                                            <h1>$20</h1>
+                                            <h1>₹20</h1>
                                             <p>IntraDay and F&O </p>
                                         </div>
                                     </div>
@@ -172,9 +181,9 @@
                     </div>
                 </section>
           
-                <footer id="footer">
+                <footer class="footer">
                     <div class="container">
-                        <div class="row  ">
+                        <div class="row justify-content-around ">
                             <div class="col-3">
                                 <img height="17px" src="https://upload.wikimedia.org/wikipedia/it/8/8a/Logo_di_Zerodha.png">
                                 <p style="padding: 10px 0;">© 2010 - 2023, Zerodha Broking Ltd.
@@ -189,7 +198,7 @@
                                 </div>
                                   
                             </div>
-                            <div class="col-3">
+                            <div class="col-2">
                                 <h5>Company</h5>
                                 <ul class="first-list">
                                     <a href="#"><li>About</li></a>
@@ -203,7 +212,7 @@
                                 </ul>
                                 
                             </div>
-                            <div class="col-3"><h5>Support</h5>
+                            <div class="col-2"><h5>Support</h5>
                                 <ul class="first-list">
                                     <a href="#"><li>Contact Us</li></a>
                                     <a href="#"><li>Support Portal</li></a>
@@ -214,30 +223,30 @@
                                     <a href="#"><li>Market Overview</li></a>
                                 </ul>
                                 </div>
-                                <div class="col-3"><h5>Account</h5>
+                                <div class="col-2"><h5>Account</h5>
                                     <ul class="first-list">
                                         <a href="#"><li>Open an account</li></a>
                                         <a href="#"><li>Fund Transfer</li></a>     
                                     </ul>
                                 </div>
                                 <div class="row small-para">
-                                    <p>Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.: INZ000031633 CDSL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to <a href="#">complaints@zerodha.com </a>, for DP related to <a href="#">dp@zerodha.com</a>. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
+                                    <p>Zerodha Broking Ltd.: Member of NSE &​ BSE - SEBI Registration no.: INZ000031633 CDSL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to <a href="#">complaints@zerodha.com </a>, for DP related to <a href="#">dp@zerodha.com</a>. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
                                     <p>Procedure to file a complaint on <a href="#">SEBI SCORES</a> Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances</p>
                                     <p>Investments in securities market are subject to market risks; read all the related documents carefully before investing.</p>
                                     <p>Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.</p>
                                     <p style="margin-bottom: 0;">"Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please <a href="#">create a ticket here</a>.</p> 
                                 </div>
-                                <div class="footer-links ">
-                                    <ul class="list-group-horizontal list-group text-center">
-                                        <a href="#"><li class="">NSE</li></a>
-                                        <a href="#"><li>BSE</li></a>
-                                        <a href="#"><li>MCX</li></a>
-                                        <a href="#"><li>Terms & conditions</li></a>
-                                        <a href="#"><li>Policies & procedures</li></a>
-                                        <a href="#"><li>Privacy</li></a>
-                                        <a href="#"><li>Closure</li></a>
-                                        <a href="#"><li>For Investor's attention</li></a>
-                                        <a href="#"><li>Investor Charter</li></a>
+                                <div class="footer-links">
+                                    <ul class="list-group-horizontal list-group ">
+                                        <li><a href="#" >NSE</a></li>
+                                        <li><a href="#" >BSE</a></li>
+                                        <li><a href="#" >MCX</a></li>
+                                        <li><a href="#" >Terms & conditions</a></li>
+                                        <li><a href="#" >Policies & procedures</a></li>
+                                        <li><a href="#" >Privacy</a></li>
+                                        <li><a href="#" >Closure</a></li>
+                                        <li><a href="#" >For Investor's attention</a></li>
+                                        <li><a href="#" >Investor Charter</a></li>
                                     </ul>
                                 </div>
                         </div>
